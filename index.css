@@ -5,9 +5,7 @@ body{
     position: relative;
     background: var(--bg-color);
     font-family: TT Hoves;
-    /* background-image: url(./images/Textures.png); */
-    background: linear-gradient(94deg, #181818 3.55%, rgba(126, 126, 126, 0.00) 511%), #181818;;
-}
+   }
 a{
     text-decoration: none;
 }
@@ -18,27 +16,29 @@ a{
 :root{
     --bg-color: #151515;
     --white: #FFFFFF;
-    --gardient: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 30%, #FFDB6F 70%);
+    --gradient: linear-gradient(121deg, rgba(255,219,111,1) 8%, rgba(255,193,7,1) 47%, rgba(255,219,111,1) 87%);
 }
 
 .loading{
     height: 100vh;
+    /* background-image: url(./images/Textures.png); */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(94deg, #181818 3.55%, rgba(126, 126, 126, 0.00) 511%);
 }
 .loading-p{
-    color:  hsl(45, 100%, 51%) ;
-font-size: 2rem;
-font-weight: 500;
+    color:  rgba(255,193,7,1) ;
+    font-size: 2rem;
+    font-weight: 500;
 }
 .missions {
     margin: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 27px;
+    gap: 15px;
 }
 .missions-div {
     position: relative;
@@ -57,14 +57,15 @@ font-weight: 500;
 
 .missions-div-before::before {
     content: "";
-    width: 65px;
+    width: 40px;
     height: 4px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 30%, #FFDB6F 70%);
+    background: var(--gradient);
     position: absolute;
-    bottom: -2.5px;
-    left: 40%;
+    bottom: -3.5px;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .missions-div-img {
@@ -102,7 +103,7 @@ font-weight: 500;
 }
 .missions-div-btn {
     flex-shrink: 0;
-    background:radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 30%, #FFDB6F 70%);    
+    background: var(--gradient);    
     padding: 8px 25px;
     border: none;
     cursor: pointer;
@@ -119,7 +120,7 @@ font-weight: 500;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
-    border-radius: 36px 36px 0 0;
+    border-radius: 10px 10px 0 0;
     border: 1px solid rgba(255, 255, 255, 0.24);
     border-bottom: none;
     border-left: none;
@@ -159,9 +160,9 @@ font-weight: 500;
     width: 100%;
 }
 .main-div-btn {
-    background: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 30%, #FFDB6F 70%);
+    background: var(--gradient);
     padding: 12px 24px;
-    background-color: rgba(255, 193, 7, 1);
+    /* background-color: rgba(255, 193, 7, 1); */
     border: none;
     color: #333;
     cursor: pointer;
@@ -173,12 +174,14 @@ font-weight: 500;
 
 /* Menu component */
 .menu{
-    border-radius: 25px 25px 0 0;
+    border-radius: 10px 10px 0 0;
+    border-left: none;
+    border-right: none;
     border: 1px solid rgba(255, 255, 255, 0.24);
     background: #181818;
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     font-weight: 500;
     position: fixed;
     bottom: 0;
@@ -188,19 +191,21 @@ font-weight: 500;
 
 .menu::before{
     content: "";
-    width: 65px;
+    width: 40px;
     height: 4px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 30%, #FFDB6F 70%);
+    background: var(--gradient);
     position: absolute;
-    top: -2.5px;
+    top: -1px;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 .menu-line{
     width: 1px;
-    height: 85px; 
+    height: 40px; 
     background: #222;
-    margin: 0 5px;
+    margin: 0 15px;
 }
 .menu-item {
     background: none;
@@ -215,7 +220,7 @@ font-weight: 500;
 .menu-item-img {
     max-width: 20px;
     height:auto;
-    fill: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 30%, #FFDB6F 70%);
+    fill:var(--gradient);
     margin-bottom: 10px;
 }
 .menu-item-p {
@@ -237,7 +242,7 @@ font-weight: 500;
     padding-top: 15px;
     display: flex;
     justify-content: center;
-    border-radius: 25px 25px 0 0;
+    border-radius: 10px 10px 0 0;
     border: 1px solid rgba(255, 255, 255, 0.24);
     border-bottom: none;
     border-left: none;
@@ -286,7 +291,7 @@ td > img{
     margin: 96px 20px 31px;
 }
 .Fh1-span {
-    color: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 30%, #FFDB6F 70%);
+    color: var(--gradient);
 }
 
 .Fsection-p {
@@ -323,7 +328,7 @@ td > img{
     padding: 5px 25px;
     border-radius: 10px;
     border: 0.787px solid rgba(255, 255, 255, 0.24);
-    background: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 30%, #FFDB6F 70%);
+    background: var(--gradient);
     float: inline-end;
 }
 th:first-child{
@@ -339,7 +344,7 @@ th:last-child{
     align-items: center;
 }
 .th-rewards-div {
-    border-radius:10px;
+    border-radius:5px;
     border: 0.395px solid rgba(255, 255, 255, 0.24);
     height: 20px;
     display: grid;
@@ -349,7 +354,7 @@ th:last-child{
     width: 20px;
 }
 .th-bonus{
-    background: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 30%, #FFDB6F 70%);
+    background: var(--gradient);
     border-radius:  0 20px 20px 0;
     color: #000;
     display: flex;
@@ -361,6 +366,9 @@ th:last-child{
 }
 .Wallet-th{
     padding: 2px;
+    border: 1px solid var(--bg-color);
+    border-top: none;
+    border-bottom: none;
     @media screen and (min-width:345px) {
         padding: 10px;
     }
@@ -432,4 +440,5 @@ th:last-child{
 .M-div{
     display: flex;
     gap: 10px;
+    align-items: center;
 }
