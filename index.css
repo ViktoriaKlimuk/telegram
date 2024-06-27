@@ -60,7 +60,7 @@ font-weight: 500;
     height: 4px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: var(--gardient);
+    background: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 0%, #FFDB6F 100%);
     position: absolute;
     bottom: -2.5px;
     left: 40%;
@@ -101,7 +101,7 @@ font-weight: 500;
 }
 .missions-div-btn {
     flex-shrink: 0;
-    background: var(--gardient);    
+    background:radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 0%, #FFDB6F 100%);    
     padding: 8px 25px;
     border: none;
     cursor: pointer;
@@ -158,7 +158,7 @@ font-weight: 500;
     width: 100%;
 }
 .main-div-btn {
-    background: var(--gardient);
+    background: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 0%, #FFDB6F 100%);
     padding: 12px 24px;
     background-color: rgba(255, 193, 7, 1);
     border: none;
@@ -191,7 +191,7 @@ font-weight: 500;
     height: 4px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: var(--gardient);
+    background: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 0%, #FFDB6F 100%);
     position: absolute;
     top: -2.5px;
 }
@@ -214,7 +214,7 @@ font-weight: 500;
 .menu-item-img {
     max-width: 20px;
     height:auto;
-    fill: var(--gardient);
+    fill: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 0%, #FFDB6F 100%);
     margin-bottom: 10px;
 }
 .menu-item-p {
@@ -322,7 +322,7 @@ td > img{
     padding: 5px 25px;
     border-radius: 10px;
     border: 0.787px solid rgba(255, 255, 255, 0.24);
-    background: var(--gardient);
+    background: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 0%, #FFDB6F 100%);
     float: inline-end;
 }
 th:first-child{
