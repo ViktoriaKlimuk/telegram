@@ -1,0 +1,22 @@
+<svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="check-circle">
+<g id="Vector">
+<path d="M37.5834 18.9283V20.5C37.5813 24.1839 36.3884 27.7684 34.1827 30.719C31.9769 33.6695 28.8765 35.828 25.3438 36.8725C21.8111 37.917 18.0354 37.7916 14.5798 36.5149C11.1242 35.2383 8.17387 32.8788 6.16881 29.7883C4.16374 26.6979 3.21139 23.0421 3.45378 19.3662C3.69617 15.6903 5.12031 12.1912 7.51381 9.39084C9.90731 6.59044 13.1419 4.63878 16.7352 3.82692C20.3286 3.01506 24.088 3.38649 27.453 4.88584" stroke="white" stroke-width="3.41667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37.5834 18.9283V20.5C37.5813 24.1839 36.3884 27.7684 34.1827 30.719C31.9769 33.6695 28.8765 35.828 25.3438 36.8725C21.8111 37.917 18.0354 37.7916 14.5798 36.5149C11.1242 35.2383 8.17387 32.8788 6.16881 29.7883C4.16374 26.6979 3.21139 23.0421 3.45378 19.3662C3.69617 15.6903 5.12031 12.1912 7.51381 9.39084C9.90731 6.59044 13.1419 4.63878 16.7352 3.82692C20.3286 3.01506 24.088 3.38649 27.453 4.88584" stroke="url(#paint0_radial_8_235)" stroke-width="3.41667" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Vector_2">
+<path d="M37.5833 6.83333L20.5 23.9337L15.375 18.8087" stroke="white" stroke-width="3.41667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37.5833 6.83333L20.5 23.9337L15.375 18.8087" stroke="url(#paint1_radial_8_235)" stroke-width="3.41667" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_8_235" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.5001 20.4902) rotate(76.0433) scale(32.1865 43.7871)">
+<stop stop-color="#FFC107"/>
+<stop offset="1" stop-color="#FFDB6F"/>
+</radialGradient>
+<radialGradient id="paint1_radial_8_235" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.4792 15.3835) rotate(72.1119) scale(16.4279 27.9097)">
+<stop stop-color="#FFC107"/>
+<stop offset="1" stop-color="#FFDB6F"/>
+</radialGradient>
+</defs>
+</svg>
