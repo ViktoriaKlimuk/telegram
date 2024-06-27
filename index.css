@@ -89,7 +89,7 @@ a{
 }
 .missions-div-info-name {
     color: var(--white);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 200;
     display: flex;
     flex-direction: column;
