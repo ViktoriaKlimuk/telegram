@@ -313,9 +313,9 @@ td > img{
     color:var(--white);
     padding: 5px;
     outline: none;
-    /* @media screen and (max-width:) {
-        
-    } */
+    @media screen and (max-width: 320px) {
+        width: 50%;
+    }
 }
 .Fsection-div-btn {
     margin: 4px;
