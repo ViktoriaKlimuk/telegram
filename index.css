@@ -348,7 +348,7 @@ th:last-child{
     width: 20px;
 }
 .th-bonus{
-    background-color: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 30%, #FFDB6F 70%);
+    background: radial-gradient(187.32% 94.2% at 50% 50%, #FFC107 30%, #FFDB6F 70%);
     border-radius:  0 20px 20px 0;
     color: #000;
     display: flex;
