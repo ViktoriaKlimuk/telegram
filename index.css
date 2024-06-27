@@ -20,7 +20,7 @@ a{
 }
 
 .loading{
-    background-image: url(./images/Textures.png);
+    /* background-image: url(./images/Textures.png); */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -56,21 +56,20 @@ font-weight: 500;
 
 .missions-div-before::before {
     content: "";
-    width: 115px;
-    height: 5px;
+    width: 65px;
+    height: 4px;
     flex-shrink: 0;
     border-radius: 5px;
     background: var(--gardient);
     position: absolute;
-    bottom: 0;
-    left: 37%;
+    bottom: -2.5px;
+    left: 40%;
 }
 
 .missions-div-img {
     color: var(--white);
-    border-radius: 20px;
+    border-radius: 8px;
     border: 0.827px solid rgba(255, 255, 255, 0.24);
-    background: #FF0013;
     width: 36px;
     height: 36px;
     margin: 8px 3px;
@@ -90,10 +89,10 @@ font-weight: 500;
 .missions-div-info-name {
     color: var(--white);
     font-size: 0.7rem;
-    font-weight: 300;
+    font-weight: 200;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 3px;
 }
 .missions-div-info-cost {
     color: var(--white);
@@ -155,25 +154,25 @@ font-weight: 500;
 .main-div {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
     width: 100%;
 }
 .main-div-btn {
     background: var(--gardient);
-    padding: 10px 24px;
+    padding: 12px 24px;
     background-color: rgba(255, 193, 7, 1);
     border: none;
     color: #333;
     cursor: pointer;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: 700;
     width: 43%;
     font-size: 0.9rem;
 }
 
 /* Menu component */
 .menu{
-    border-radius: 36px;
+    border-radius: 25px 25px 0 0;
     border: 1px solid rgba(255, 255, 255, 0.24);
     background: #181818;
     align-items: center;
@@ -188,13 +187,13 @@ font-weight: 500;
 
 .menu::before{
     content: "";
-    width: 115px;
-    height: 5px;
+    width: 65px;
+    height: 4px;
     flex-shrink: 0;
     border-radius: 5px;
     background: var(--gardient);
     position: absolute;
-    top: 0px;
+    top: -2.5px;
 }
 .menu-line{
     width: 1px;
@@ -237,7 +236,7 @@ font-weight: 500;
     padding-top: 15px;
     display: flex;
     justify-content: center;
-    border-radius: 36px 36px 0 0;
+    border-radius: 25px 25px 0 0;
     border: 1px solid rgba(255, 255, 255, 0.24);
     border-bottom: none;
     border-left: none;
@@ -307,15 +306,13 @@ td > img{
     height: 40px;
 }
 .Fsection-div-input {
-    width: 63%;
+    width: 67%;
     background: transparent;
     border: none;
     color:var(--white);
-    padding: 5px;
+    padding: 12px;
+    font-weight: 500;
     outline: none;
-    @media screen and (max-width: 320px) {
-        width: 50%;
-    }
 }
 .Fsection-div-btn {
     margin: 4px;
@@ -326,6 +323,7 @@ td > img{
     border-radius: 10px;
     border: 0.787px solid rgba(255, 255, 255, 0.24);
     background: var(--gardient);
+    float: inline-end;
 }
 th:first-child{
     border-radius: 20px 0 0 20px;
