@@ -307,12 +307,15 @@ td > img{
     height: 40px;
 }
 .Fsection-div-input {
-    width: 73%;
+    width: 63%;
     background: transparent;
     border: none;
     color:var(--white);
     padding: 5px;
     outline: none;
+    /* @media screen and (max-width:) {
+        
+    } */
 }
 .Fsection-div-btn {
     margin: 4px;
