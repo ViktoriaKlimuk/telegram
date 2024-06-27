@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./font/stylesheet.css">
 </head>
 <body>
+    <!-- loading section -->
+     <section class="loading">
+        <img src="./images/main-img.png" alt="" class="main-img">
+        <p class="loading-p">Loading...</p>
+     </section>
+    <!-- section Transactions -->
     <section class="missions">
         <div class="missions-div">
             <div class="missions-div-div">
@@ -14,7 +21,7 @@
                     <img src="./images/ba0a565a74d9481e034e12871736d03a.png"  width="20px">
                 </div>
                 <div class="missions-div-info">
-                    <p class="missions-div-info-name">Tron Balance<br>0.00 TRX
+                    <p class="missions-div-info-name">Tron Balance <br> <span class="missions-div-info-cost">0.00 TRX</span> 
                 </div>
             </div>
             <button class="missions-div-btn">Send</button>
@@ -23,19 +30,20 @@
             <div class="missions-div-div">
                 <img src="./images/2.png" class="missions-div-img">
                 <div class="missions-div-info">    
-                    <p class="missions-div-info-name">BONK Balance <br>5000 BONK
+                    <p class="missions-div-info-name">BONK Balance <br> <span class="missions-div-info-cost">5000 BONK</span>
                 </div>
             </div>
             <button class="missions-div-btn">Send</button>
         </div>
     </section>
+
     <!-- section Home -->
-    <main class="main">
+    <main class="main" >
         <div class="main-div-img">
             <img src="./images/main-img.png" alt="" class="main-img">
         </div>
         <h1 class="main-h1">1.728433 TRX</h1>
-        <p class="main-p">1.0 GH/s ⚡</p>
+        <p class="main-p">1.0 GH/s⚡</p>
         <div class="main-div">
             <button class="main-div-btn">Claim</button>
             <button class="main-div-btn">Boost</button>
@@ -126,7 +134,7 @@
                             <p class="M-div-div-p">10,000</br>BONK</p>
                         </div>
                     </div>
-                    <button class="missions-div-btn" style="font-size: 1rem;">
+                    <button class="missions-div-btn M-btn">
                         Claim
                     </button>
                 </div>
