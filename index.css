@@ -4,7 +4,9 @@ body{
     box-sizing: border-box;
     position: relative;
     background: var(--bg-color);
-    font-family: TT Hoves
+    font-family: TT Hoves;
+    /* background-image: url(./images/Textures.png); */
+    background: linear-gradient(94deg, #181818 3.55%, rgba(126, 126, 126, 0.00) 511%), #181818;;
 }
 a{
     text-decoration: none;
@@ -20,7 +22,6 @@ a{
 }
 
 .loading{
-    /* background-image: url(./images/Textures.png); */
     height: 100vh;
     display: flex;
     flex-direction: column;
