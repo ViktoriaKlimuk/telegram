@@ -201,8 +201,6 @@ document.getElementById('nextMissionPage').addEventListener('click', () => {
     }
 });
 
-// Initial render for both tables
-renderTransactionsTable();
-renderTransactionsPagination();
+// Initial render for missions table
 renderMissionsTable();
 renderMissionsPagination();
