@@ -161,7 +161,6 @@ a{
 .main-div-btn {
     background: var(--gradient);
     padding: 12px 24px;
-    /* background-color: rgba(255, 193, 7, 1); */
     border: none;
     color: #333;
     cursor: pointer;
@@ -174,9 +173,7 @@ a{
 /* Menu component */
 .menu{
     border-radius: 10px 10px 0 0;
-    border-left: none;
-    border-right: none;
-    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-top: 1px solid rgba(255, 255, 255, 0.24);
     background: #181818;
     align-items: center;
     display: flex;
@@ -241,6 +238,7 @@ a{
     padding-top: 15px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     border-radius: 10px 10px 0 0;
     border: 1px solid rgba(255, 255, 255, 0.24);
     border-bottom: none;
@@ -268,7 +266,7 @@ th {
     font-weight: 500;
 }
 td{
-    padding-top: 24px;
+    padding: 10px 0;
     color: #FFF;
     text-align: center;
     font-size: 0.7rem;
@@ -330,27 +328,24 @@ td > img{
     background: var(--gradient);
     float: inline-end;
 }
+td > img{
+    width: 20px;
+}
 th:first-child{
     border-radius: 20px 0 0 20px;
 }
 th:last-child{
     border-radius: 0 20px 20px 0;
 }
-
-.th-rewards {
-    display: flex;
-    gap: 5px;
-    align-items: center;
-}
 .th-rewards-div {
     border-radius:5px;
     border: 0.395px solid rgba(255, 255, 255, 0.24);
-    height: 20px;
+    height: 19px;
     display: grid;
     justify-items: center;
     align-items: center;
     background: #FF0013;
-    width: 20px;
+    width: 19px;
 }
 .th-bonus{
     background: var(--gradient);
@@ -440,4 +435,72 @@ th:last-child{
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+table{
+    width: 95%;
+    border-collapse: collapse;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    width: 100%;
+}
+
+.pagination button {
+    background: var(--gradient);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: var(--white);
+    cursor: not-allowed;
+}
+
+#paginationDots span ,
+#paginationMissionDots span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#paginationDots .active ,
+#paginationMissionDots .active{
+    background: var(--gradient);
+}
+.bn{
+    display: table-cell;
+}
+.th-rewards {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#prevPage,
+#prevMissionPage {
+ position: absolute;
+ left: 10px;
+}
+
+.paginationDots,
+.paginationMissionDots{
+ position: absolute;
+ left: 45%;
+}
+#nextPage,
+#nextMissionPage {
+ position: absolute;
+ right: 10px;
 }

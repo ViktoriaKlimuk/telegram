@@ -6,15 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./font/stylesheet.css">
+
+    <script type="module" src="./index.js" defer></script>
 </head>
 <body>
     <!-- loading section -->
-     <section class="loading">
+     <section class="loading" style="display: none;">
         <img src="./images/main-img.png" alt="" class="main-img">
         <p class="loading-p">Loading...</p>
      </section>
+
     <!-- section Transactions -->
-    <section class="missions">
+    <section class="missions" style="display: none;">
         <div class="missions-div missions-div-before">
             <div class="missions-div-div">
                 <div class="missions-div-img" style="background-color: #ff0013;">
@@ -38,7 +41,7 @@
     </section>
 
     <!-- section Home -->
-    <main class="main" >
+    <main class="main" style="display: none;">
         <div class="main-div-img">
             <img src="./images/main-img.png" alt="" class="main-img">
         </div>
@@ -54,7 +57,7 @@
     <main class="Wallet-main">
         <h1 class="Wallet-main-h1">Transactions History</h1>
         <section class="Wallet-main-section">
-            <table>
+            <table id="transactionsTable">
                 <thead class="Wallet-main-table-thead Wallet-main-table">
                     <tr class="Wallet-main-table-thead-tr">
                         <th>Date</th>
@@ -65,7 +68,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <!-- <tr>
                         <td>20:42 2024.06.32</td>
                         <td>
                             <img src="./images/icon.png">
@@ -75,14 +78,19 @@
                         <td>
                             <img src="./images/status.svg">
                         </td>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
+            <div class="pagination">
+                <button id="prevPage" disabled>«</button>
+                <div id="paginationDots"></div>
+                <button id="nextPage">»</button>
+            </div>
         </section>
     </main>
 
     <!-- section Friends -->
-    <section class="friends">
+    <section class="friends" >
        <h1 class="Fh1">Recieve 300 $BONK for each friend. 5% of your friends boosts in $TRX.<span class="Fh1-span"> Bonus $BONK coins for completed friends missions.</span></h1>
        <section class="Fsection">
            <p class="Fsection-p">Your Invite Link</p>
@@ -93,20 +101,19 @@
            <p class="Fsection-p">Your Inviter: none</p>
        </section>
        <section class="Wallet-main-section">
-           <table>
+           <table id="missionsTable">
                <thead class="Wallet-main-table-thead Wallet-main-table">
                    <tr class="Wallet-main-table-thead-tr ">
                        <th class="Wallet-th">Name</th>
                        <th class="Wallet-th">Missions</th>
-                       <!-- delete class Friends-tr -->
                        <div style="display: flex;">
-                            <th class="th-rewards Wallet-th">
+                            <th class="th-rewards Wallet-th bn">
                                 <div class="th-rewards-div">
                                     <img src="./images/ba0a565a74d9481e034e12871736d03a.png"  width="13px">
                                 </div>
                                 Rewards
                             </th>
-                            <th class="th-bonus Wallet-th"> 
+                            <th class="th-bonus Wallet-th bn"> 
                                 <img src="./images/icon.png" width="20px">
                                 Bonus
                             </th>
@@ -114,22 +121,27 @@
                    </tr>
                </thead>
                <tbody>
-                <tr>
-                    <td>vika</td>
-                    <td>
-                        <img src="./images/icon.png">
-                    </td>
-                    <td>5000</td>
-                    <td>bonus</td>
-                </tr>
-            </tbody>
+                    <!-- <tr>
+                        <td>vika</td>
+                        <td>
+                            <img src="./images/icon.png">
+                        </td>
+                        <td>5000</td>
+                        <td>bonus</td>
+                    </tr> -->
+                </tbody>
            </table>
+           <div class="pagination">
+            <button id="prevMissionPage" disabled>«</button>
+            <div id="paginationMissionDots"></div>
+            <button id="nextMissionPage">»</button>
+            </div>
        </section>
        <p class="Fsection-p last-p">No friends yet :(</p>
     </section>
 
     <!-- section Mission -->
-    <section class="Missions">
+    <section class="Missions" style="display: none;">
        <h1 class="Mh1"><span class="Mh1-span">5</span> missions available</h1>
        <p class="Mp">Complete the missions to<span class="Mp-span"> get the BONK</span></p>
 
@@ -229,7 +241,7 @@
     </section>
 
     <!-- footer-menu -->
-    <section class="menu">
+    <section class="menu" style="display: none;">
         <button class="menu-item">
             <img src="./images/home.svg" class="menu-item-img">
             <p class="menu-item-p">Home</p>
