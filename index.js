@@ -219,3 +219,11 @@ $(document).ready(function(){
         animateIn: ''
     });
   });
+
+let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+let scrollTo = currentScroll + 85;
+
+window.scrollTo({
+    top: scrollTo,
+    behavior: 'smooth'
+});
