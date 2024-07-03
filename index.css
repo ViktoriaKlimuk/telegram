@@ -517,7 +517,7 @@ table{
     display: flex;
     justify-content: center;
 }
-
+/* there you can fix the size of the banners */
 .banner1,
 .banner2,
 .banner3,
