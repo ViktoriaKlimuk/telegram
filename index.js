@@ -220,10 +220,16 @@ $(document).ready(function(){
     });
   });
 
-let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-let scrollTo = currentScroll + 85;
+// let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+// let scrollTo = currentScroll + 85;
 
-window.scrollTo({
-    top: scrollTo,
-    behavior: 'smooth'
-});
+// window.scrollTo({
+//     top: scrollTo,
+//     behavior: 'smooth'
+// });
+var banners = document.querySelectorAll('.banner1, .banner2, .banner3, .banner4, .banner5');
+        banners.forEach(function(banner) {
+            var currentHeight = banner.offsetHeight;
+            var newHeight = currentHeight + 85;
+            banner.style.height = newHeight + 'px';
+        });
