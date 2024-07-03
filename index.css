@@ -510,7 +510,7 @@ table{
 .banner {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
     flex-wrap: wrap;
 }
 
@@ -527,5 +527,5 @@ table{
     background: var(--gradient);
     width: 87% ;
     border-radius: 10px;
-    height: 4.8rem;
+    height: 4rem;
 }
