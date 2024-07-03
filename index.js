@@ -215,15 +215,7 @@ $(document).ready(function(){
         // if you want to male it slower or even faster
       autoplayTimeout: 4000,
       autoplayHoverPause: true,
-      animateOut: '', // Убираем эффект анимации
-        animateIn: ''
+      animateOut: '',
+      animateIn: ''
     });
   });
-
-let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-let scrollTo = currentScroll + 85;
-
-window.scrollTo({
-    top: scrollTo,
-    behavior: 'smooth'
-});
