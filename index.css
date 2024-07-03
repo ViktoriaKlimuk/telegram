@@ -116,7 +116,7 @@ a{
 
 /* Home page */
 .main {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     display: flex;
     flex-direction: column;
     border-radius: 10px 10px 0 0;
@@ -131,24 +131,23 @@ a{
 }
 .main-div-img{
     text-align: center;
-    display: block;
-    /* height: 390px; */
+    margin-top: -11px; /*new changes*/
 }
 .main-img {
     width: 70%;
+    height: auto;
 }
 .main-h1 {
     color: #FFF;
     font-size: 2rem;
     font-weight: 600;
-    margin-bottom: -25px;
-    /* margin-top: 30px; */
+    margin-top: -15px;
 }
 
 .main-p {
     color: #FFF;
     font-size: 1rem;
-    margin:25px 0 ;
+    margin: 2.5px 0 20px 0;
     font-weight: 700;
 }
 
@@ -160,7 +159,7 @@ a{
 }
 .main-div-btn {
     background: var(--gradient);
-    padding: 12px 24px;
+    padding: 10px 24px; /*new changes*/
     border: none;
     color: #333;
     cursor: pointer;
@@ -503,4 +502,29 @@ table{
 #nextMissionPage {
  position: absolute;
  right: 10px;
+}
+
+
+/* new styles */
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.banner .owl-item {
+    display: flex;
+    justify-content: center;
+}
+
+.banner1,
+.banner2,
+.banner3,
+.banner4,
+.banner5 {
+    background: var(--gradient);
+    width: 87% ;
+    border-radius: 10px;
+    height: 4rem;
 }

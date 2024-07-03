@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./font/stylesheet.css">
 
@@ -17,7 +21,7 @@
      </section>
 
     <!-- section Transactions -->
-    <section class="missions" style="display: none;">
+    <section class="missions" >
         <div class="missions-div missions-div-before">
             <div class="missions-div-div">
                 <div class="missions-div-img" style="background-color: #ff0013;">
@@ -41,7 +45,7 @@
     </section>
 
     <!-- section Home -->
-    <main class="main" style="display: none;">
+    <main class="main">
         <div class="main-div-img">
             <img src="./images/main-img.png" alt="" class="main-img">
         </div>
@@ -53,8 +57,15 @@
         </div>        
     </main>
 
+    <section class="banner owl-carousel">
+        <div class="banner1">1</div>
+        <div class="banner2">2</div>
+        <div class="banner3">3</div>
+        <div class="banner4">4</div>
+        <div class="banner5">5</div>
+    </section>
     <!-- section Wallet -->
-    <main class="Wallet-main">
+    <main class="Wallet-main" style="display: none;">
         <h1 class="Wallet-main-h1">Transactions History</h1>
         <section class="Wallet-main-section">
             <table id="transactionsTable">
@@ -68,17 +79,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- <tr>
-                        <td>20:42 2024.06.32</td>
-                        <td>
-                            <img src="./images/icon.png">
-                        </td>
-                        <td>5000</td>
-                        <td>bonus</td>
-                        <td>
-                            <img src="./images/status.svg">
-                        </td>
-                    </tr> -->
+                    
                 </tbody>
             </table>
             <div class="pagination">
@@ -90,7 +91,7 @@
     </main>
 
     <!-- section Friends -->
-    <section class="friends" >
+    <section class="friends" style="display: none;">
        <h1 class="Fh1">Recieve 300 $BONK for each friend. 5% of your friends boosts in $TRX.<span class="Fh1-span"> Bonus $BONK coins for completed friends missions.</span></h1>
        <section class="Fsection">
            <p class="Fsection-p">Your Invite Link</p>
@@ -241,7 +242,7 @@
     </section>
 
     <!-- footer-menu -->
-    <section class="menu" style="display: none;">
+    <section class="menu">
         <button class="menu-item">
             <img src="./images/home.svg" class="menu-item-img">
             <p class="menu-item-p">Home</p>
@@ -262,5 +263,8 @@
             <p class="menu-item-p">Missions</p>
         </button>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>  
 </body>
 </html>
