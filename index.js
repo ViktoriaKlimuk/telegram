@@ -209,11 +209,9 @@ renderMissionsPagination();
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
       loop: true,
-      margin: 10,
-      nav: true,
       items: 1,
       autoplay: true,
-        //   you can change "autoplayTimeout" 
+        //  you can change "autoplayTimeout" 
         // if you want to male it slower or even faster
       autoplayTimeout: 2000,
       autoplayHoverPause: true
