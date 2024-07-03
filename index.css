@@ -181,8 +181,8 @@ a{
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 85px;
-    z-index: 9;
+    height: 80px; /*changes*/
+    z-index: 9; /*changes*/
 }
 
 .menu::before{
@@ -527,5 +527,5 @@ table{
     background: var(--gradient);
     width: 87% ;
     border-radius: 10px;
-    height: 4rem;
+    height: 7rem;
 }
