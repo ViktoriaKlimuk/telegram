@@ -214,6 +214,8 @@ $(document).ready(function(){
         //  you can change "autoplayTimeout" 
         // if you want to male it slower or even faster
       autoplayTimeout: 2000,
-      autoplayHoverPause: true
+      autoplayHoverPause: true,
+      animateOut: '', // Убираем эффект анимации
+        animateIn: ''
     });
   });
