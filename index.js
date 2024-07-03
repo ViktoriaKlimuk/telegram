@@ -210,10 +210,10 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
       loop: true,
       items: 1,
-    //   autoplay: true,
+      autoplay: true,
         //  you can change "autoplayTimeout" 
         // if you want to male it slower or even faster
-      autoplayTimeout: 2000,
+      autoplayTimeout: 4000,
       autoplayHoverPause: true,
       animateOut: '', // Убираем эффект анимации
         animateIn: ''
