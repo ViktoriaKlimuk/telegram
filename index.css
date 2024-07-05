@@ -24,7 +24,8 @@ a{
 .Mh1-span,
 .Mp-span,
 .Mimg,
-.th-bonus{
+.th-bonus,
+.td{
     color: var(--icons-color) !important;
     fill:var(--icons-color);
     
@@ -293,9 +294,6 @@ td{
 }
 td > img{
     width: 25px;
-}
-.td{
-    color:  rgba(39,161,124,1);
 }
 
 /* FRIENDS */
