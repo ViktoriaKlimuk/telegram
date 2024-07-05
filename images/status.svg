@@ -11,12 +11,12 @@
 </g>
 <defs>
 <radialGradient id="paint0_radial_8_235" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.5001 20.4902) rotate(76.0433) scale(32.1865 43.7871)">
-<stop stop-color="#FFC107"/>
-<stop offset="1" stop-color="#FFDB6F"/>
+<stop stop-color="rgba(39,161,124,1)"/>
+<stop offset="1" stop-color="rgba(39,161,124,1)"/>
 </radialGradient>
 <radialGradient id="paint1_radial_8_235" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.4792 15.3835) rotate(72.1119) scale(16.4279 27.9097)">
-<stop stop-color="#FFC107"/>
-<stop offset="1" stop-color="#FFDB6F"/>
+<stop stop-color="rgba(39,161,124,1)"/>
+<stop offset="1" stop-color="rgba(39,161,124,1)"/>
 </radialGradient>
 </defs>
 </svg>

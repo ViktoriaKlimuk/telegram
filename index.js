@@ -19,7 +19,7 @@ const transactions = [
 
 // надо поменять число переменной rowsPerPage , 
 // если хотите увеличить или уменьшить объем транкзаций
-const rowsPerPage = 6;
+const rowsPerPage = 10;
 let currentPage = 1;
 
 function renderTable() {
@@ -125,7 +125,7 @@ const missions = [
     { name: '17', missions: './images/icon.png', rewards: 5000, bonus: 'bonus' }
 ];
 
-const missionsRowsPerPage = 5;
+const missionsRowsPerPage = 10;
 let missionsCurrentPage = 1;
 
 function renderMissionsTable() {
